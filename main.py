@@ -1,7 +1,13 @@
 print("Привет мир") 
-x=5, y=8, print(x+y)
-x=5, y=8, print(x-y)
-x=5, y=8, print(x*y)
-x=5, y=8, print(x/y)
 
+def add(a, b):
+	return a + b
 
+def sub(a, b):
+	return a - b
+
+def div(a, b):
+	return a / b
+
+def mul(a, b):
+	return a * b
